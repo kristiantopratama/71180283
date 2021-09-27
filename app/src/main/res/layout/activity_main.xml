@@ -14,7 +14,7 @@
         android:background="#71A1C8"
         android:capitalize="words"
         android:orientation="vertical"
-        android:text="Aplikasi Login Sadja"
+        android:text="Aplikasi Login Saja"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#040404"
