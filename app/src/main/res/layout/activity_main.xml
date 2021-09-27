@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6BA7A"
     android:textAlignment="center"
     tools:context=".MainActivity">
 
@@ -11,10 +12,10 @@
         android:id="@+id/nama_aplikasi"
         android:layout_width="409dp"
         android:layout_height="0dp"
-        android:background="#71A1C8"
+        android:background="#72B0E3"
         android:capitalize="words"
         android:orientation="vertical"
-        android:text="Aplikasi Login Sadja"
+        android:text="Aplikasi Login Saja"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#040404"
