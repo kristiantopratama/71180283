@@ -28,8 +28,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="239dp" />
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="230dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -38,13 +38,13 @@
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="294dp" />
+        tools:layout_editor_absoluteY="285dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Username"
+        android:text="Username :"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="249dp" />
 
@@ -52,8 +52,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"
-        tools:layout_editor_absoluteX="56dp"
+        android:text="Password :"
+        tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="302dp" />
 
     <androidx.constraintlayout.widget.Guideline
