@@ -1,8 +1,10 @@
 package com.example.toolbar
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -16,6 +18,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val btnProfile = findViewById<Button>(R.id.btnProfile)
+        btnProfile.setOnClickListener {
+
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
+
+        }
+
 
         val Toolbar = findViewById<Toolbar>(R.id.toolbar)
 

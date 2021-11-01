@@ -14,16 +14,26 @@
         android:layout_height="wrap_content"
         android:background="#FF5722">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Latihan Toolbar"
-                android:textStyle="bold"
-                android:textSize="30dp"
-                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toolbar"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Profile">
+        </Button>
+
+
+
+
 
     </androidx.appcompat.widget.Toolbar>
-
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pager"
