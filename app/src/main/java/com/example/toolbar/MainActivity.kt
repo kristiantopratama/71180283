@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val pager = findViewById<ViewPager2>(R.id.pager)
         val listFragment = listOf<Fragment>(FirstFragment(), SecondFragment())
         val pagerAdapter = PagerAdapter(this, listFragment)
-       // pager.adapter = pagerAdapter
+        pager.adapter = pagerAdapter
 
     }
 
