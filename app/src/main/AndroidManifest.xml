@@ -15,6 +15,7 @@
             android:label="Dashboard"
             android:theme="@style/DashboardStyle"/>
         <activity android:name=".SignInActivity" />
+        <activity android:name=".PendudukActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
