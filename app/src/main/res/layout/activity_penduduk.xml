@@ -39,11 +39,11 @@
         android:id="@+id/btnSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Search" />
+        android:text="List Data" />
 
     <TextView
         android:id="@+id/txtOuput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="List Data" />
+        android:text="Data" />
 </LinearLayout>
