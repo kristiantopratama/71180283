@@ -6,4 +6,5 @@
     <string name="name">Name</string>
     <string name="email_address">Email address</string>
     <string name="sign_out">Sign out</string>
+    <string name="default_web_client_id" translatable="false">528261587853-ifhr880h4lppjfi97080llj8ic5jep18.apps.googleusercontent.com</string>
 </resources>

@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "1049190134577",
-    "firebase_url": "https://testapp-8dad3.firebaseio.com",
-    "project_id": "testapp-8dad3",
-    "storage_bucket": "testapp-8dad3.appspot.com"
+    "project_number": "528261587853",
+    "project_id": "tugasakhir-android-466c9",
+    "storage_bucket": "tugasakhir-android-466c9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1049190134577:android:fc758309e8985cebbbf610",
+        "mobilesdk_app_id": "1:528261587853:android:4a662c59cf3da7a6cc13c4",
         "android_client_info": {
           "package_name": "com.jovanovic.stefan.testapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1049190134577-fcj45q0ih94bpi15f01g9e5i7tj7fvsr.apps.googleusercontent.com",
+          "client_id": "528261587853-ifhr880h4lppjfi97080llj8ic5jep18.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAR8kgNzXWHcFEY-ggdbVI4EQm-BrPBo-E"
+          "current_key": "AIzaSyCL68GqDuzBvBqMVXtLgBYXmDw-B0sLb9g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1049190134577-fcj45q0ih94bpi15f01g9e5i7tj7fvsr.apps.googleusercontent.com",
+              "client_id": "528261587853-ifhr880h4lppjfi97080llj8ic5jep18.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
