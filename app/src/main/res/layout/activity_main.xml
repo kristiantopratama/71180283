@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukkan nama (Hermawan Nusa)" />
+
+    <EditText
+        android:id="@+id/edtNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Masukkan NIM (71180201)"
+        />
+
+    <EditText
+        android:id="@+id/edtIPK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukkan IPK (4.00)" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search (Masukkan nama ..)" />
+
+    <Button
+        android:id="@+id/btnSearchNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search (Masukkan NIM ..)" />
+
+    <Button
+        android:id="@+id/btnSearchIPK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search (Masukkan IPK ..)" />
+
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete (Masukkan nama ..)" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Data" />
+
+    <TextView
+        android:id="@+id/txtOuput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+</LinearLayout>
