@@ -1,5 +1,6 @@
 package com.example.firebase_71180283
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -55,17 +56,26 @@ class MainActivity : AppCompatActivity() {
                 }
         }
 
+
         btnSearchNIM.setOnClickListener{
-            firestore?.collection("Mahasiswa")?.document(edtNIM.text.toString())?.get()!!
-                .addOnSuccessListener { doc ->
-                    txtOutput.setText(doc.data.toString())
+            firestore?.collection("Mahasiswa")?.whereEqualTo("nim", edtNIM.text.toString())?.get()!!
+                .addOnSuccessListener { documents ->
+                    var output = "Data "
+                    for(document in documents){
+                        output += "\n${document.data}"
+                    }
+                    txtOutput.setText(output)
                 }
         }
 
         btnSearchIPK.setOnClickListener{
-            firestore?.collection("Mahasiswa")?.document(edtIPK.text.toString())?.get()!!
-                .addOnSuccessListener { doc ->
-                    txtOutput.setText(doc.data.toString())
+            firestore?.collection("Mahasiswa")?.whereEqualTo("ipk", edtIPK.text.toString())?.get()!!
+                .addOnSuccessListener { documents ->
+                    var output = "Data "
+                    for(document in documents){
+                        output += "\n${document.data}"
+                    }
+                    txtOutput.setText(output)
                 }
         }
 
